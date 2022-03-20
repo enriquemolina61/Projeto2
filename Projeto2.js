@@ -59,32 +59,32 @@ while (continuar == "") {
       console.log(empate("Empate"));
       contadorempate++;
     }
-    if (jogador == "pedra" && pc == "papel") {
+    if (jogador === "pedra" && pc === "papel") {
       console.log("");
       console.log(pontopc("O computador ganhou essa rodada!"));
       contadorpc++;
     }
-    if (jogador == "pedra" && pc == "tesoura") {
+    if (jogador === "pedra" && pc === "tesoura") {
       console.log("");
       console.log(pontojogador("Você ganhou essa rodada!"));
       contadorjogador++;
     }
-    if (pc == "pedra" && jogador == "papel") {
+    if (pc === "pedra" && jogador === "papel") {
       console.log("");
       console.log(pontojogador("Você ganhou essa rodada!"));
       contadorjogador++;
     }
-    if (pc == "tesoura" && jogador == "papel") {
+    if (pc === "tesoura" && jogador === "papel") {
       console.log("");
       console.log(pontopc("O computador ganhou essa rodada!"));
       contadorpc++;
     }
-    if (jogador == "tesoura" && pc == "papel") {
+    if (jogador === "tesoura" && pc === "papel") {
       console.log("");
       console.log(pontojogador("Você ganhou essa rodada!"));
       contadorjogador++;
     }
-    if (jogador == "tesoura" && pc == "pedra") {
+    if (jogador === "tesoura" && pc === "pedra") {
       console.log("");
       console.log(pontopc("O computador ganhou essa rodada!"));
       contadorpc++;
